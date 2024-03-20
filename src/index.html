@@ -9,6 +9,12 @@
       type="image/x-icon"
     />
     <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
     <title>Social links profile</title>
     <style>
       .attribution {
@@ -20,21 +26,35 @@
       }
     </style>
   </head>
-  <body>
+  <body class="bg-gray-200 dark:bg-neutral-950">
     <main class="grid place-items-center h-svh">
-      <article class="w-[87.2%] max-w-[385px] p-[23px] rounded-lg text-center">
-        <figure class="size-[27%] rounded-full overflow-hidden m-auto mb-8">
-          <img
-            src="./assets/images/avatar-jessica.jpeg"
-            alt="Photo of Jessica Randall"
-          />
+      <article
+        class="w-[87.2%] max-w-[385px] p-[23px] md:p-[39px] rounded-lg text-center bg-gray-300 dark:bg-neutral-900"
+      >
+        <figure>
+          <div class="size-[27%] rounded-full overflow-hidden m-auto mb-8">
+            <img
+              class="size-full"
+              src="./assets/images/avatar-jessica.jpeg"
+              alt="Photo of Jessica Randall"
+            />
+          </div>
+          <figcaption>
+            <h1
+              class="font-bold font-sans text-[1.5rem] text-neutral-950 mb-[17px] md:mb-[30px] dark:text-neutral-50"
+            >
+              Jessica Randall
+            </h1>
+          </figcaption>
         </figure>
-        <h1 class="font-bold text-[1.5rem] mb-[17px]">Jessica Randall</h1>
-        <small class="text-[14px] font-semibold mb-[30px] inline-block"
+        <small
+          class="text-[14px] font-semibold text-[#4C6403] mb-[30px] inline-block md:mb-[32px] dark:text-accent"
           >London, United Kingdom</small
         >
         <br />
-        <p class="text-[14px]">"Front-end developer and avid reader."</p>
+        <p class="text-[14px] text-neutral-950 dark:text-neutral-50">
+          "Front-end developer and avid reader."
+        </p>
         <div class="mt-[24px]">
           <ul class="grid gap-4">
             <li><a class="list-style" href="#b">GitHub</a></li>
